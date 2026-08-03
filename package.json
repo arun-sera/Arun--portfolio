@@ -1,0 +1,19 @@
+{
+  "name": "arun-v-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio site with dynamic SQL-backed content and a password-protected admin panel",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node db/seed.js"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0"
+  }
+}
